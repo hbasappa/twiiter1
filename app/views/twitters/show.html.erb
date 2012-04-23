@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Tweet:</b>
+  <%= @twitter.Tweet %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @twitter.Author %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @twitter.Location %>
+</p>
+
+
+<%= link_to 'Edit', edit_twitter_path(@twitter) %> |
+<%= link_to 'Back', twitters_path %>
